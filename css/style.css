@@ -1,0 +1,34 @@
+*{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-image: url("./Captura\ de\ tela\ de\ 2023-08-15\ 21-36-08.png");
+  }
+  #computer {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-image: url("./dispositivo-digital-rosa-feminino-com-tela-de-desktop-e-espaco-de-design-removebg-preview.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 28px;
+  }
+  .line {
+    width: 60%;
+    background-color: blueviolet;
+    height: 5px;
+  }
+  .linksHeader {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-style: none;
+  }
+  .linksHeader li a {
+    text-decoration: none;
+  }
